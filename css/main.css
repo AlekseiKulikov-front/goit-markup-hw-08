@@ -6,8 +6,10 @@
   --white-color: #ffffff;
   --background-hero-color: #2f303a;
   --logo-color: #000000;
-  --section-pt: 94px;
-  --section-pb: 94px;
+  --section-pt-desktop: 94px;
+  --section-pb-desktop: 94px;
+  --section-pt-mobile: 60px;
+  --section-pb-mobile: 60px;
   --main-icon-color: #afb1b8;
 }
 
@@ -68,10 +70,28 @@ button {
 }
 
 .conteiner {
-  width: 1200px;
-  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  border: solid 1px red;
+}
+
+@media screen and (min-width: 480px) {
+  .conteiner {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    width: 1200px;
+  }
 }
 
 .header {
@@ -237,18 +257,20 @@ button {
   padding-bottom: var(--section-pb);
 }
 
+/* .quality {
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
 .quality__list {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
 }
-
 .quality__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
-
 .quality__heading {
   font-weight: bold;
   font-size: 14px;
@@ -258,7 +280,6 @@ button {
   color: var(--main-color);
   margin-bottom: 10px;
 }
-
 .quality__paragraph {
   font-weight: normal;
   font-size: 14px;
@@ -266,7 +287,6 @@ button {
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
-
 .quality__tumb {
   display: flex;
   justify-content: center;
@@ -275,8 +295,7 @@ button {
   background: #f5f4fa;
   border-radius: 4px;
   padding: 25px 100px;
-}
-
+} */
 .works {
   padding-bottom: var(--section-pb);
 }
