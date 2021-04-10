@@ -10,6 +10,8 @@
   --section-pb-desktop: 94px;
   --section-pt-mobile: 60px;
   --section-pb-mobile: 60px;
+  --section-pt-tablet: 60px;
+  --section-pb-tablet: 60px;
   --main-icon-color: #afb1b8;
 }
 
@@ -292,6 +294,13 @@ button {
 
 .quality__item:not(:last-child) {
   margin-bottom: 30px;
+}
+
+@media screen and (win-width: 768px) {
+  .quality {
+    padding-top: var(--section-pt-tablet);
+    padding-bottom: var(--section-pb-tablet);
+  }
 }
 
 /* .quality {
