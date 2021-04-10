@@ -253,8 +253,45 @@ button {
 }
 
 .quality {
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
+  padding-top: var(--section-pt-mobile);
+  padding-bottom: var(--section-pb-mobile);
+}
+
+.quality__tumb {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 100px;
+}
+
+.quality__text-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quality__heading {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+.quality__paragraph {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+.quality__item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 /* .quality {
