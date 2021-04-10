@@ -1,5 +1,26 @@
 .team {
   background: #f5f4fa;
+  padding-top: var(--section-pt-mobile);
+  padding-bottom: var(--section-pb-mobile);
+}
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team__header {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  margin-bottom: 30px;
+}
+/* .team {
+  background: #f5f4fa;
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);
 }
@@ -46,3 +67,4 @@
 .team__box {
   padding: 30px 32px;
 }
+ */
