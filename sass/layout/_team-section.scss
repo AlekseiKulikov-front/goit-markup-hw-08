@@ -2,14 +2,13 @@
   background: #f5f4fa;
   padding-top: var(--section-pt-mobile);
   padding-bottom: var(--section-pb-mobile);
+  width: 100%;
   &__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
   }
   &__header {
     font-family: var(--main-font-family);
-    font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 1.17;
@@ -51,9 +50,6 @@
     padding-top: var(--section-pt-tablet);
     padding-bottom: var(--section-pb-tablet);
   }
-  .team__item {
-    flex-basis: calc(100% / 2 - 30px);
-  }
 
   .team__item:nth-child(odd) {
     margin-right: 30px;
@@ -68,9 +64,6 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-color);
     margin-bottom: 50px;
   }
   .team__list {
