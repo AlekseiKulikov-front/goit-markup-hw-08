@@ -4,8 +4,9 @@
 @import './base/conteiner';
 @import './layout/header';
 @import './components/navigation-conteiner';
+@import './components/mobile-menu';
 @import './components/main-logo';
-@import './components/contact-list';
+/* @import './components/contact-list'; */
 @import './layout/hero';
 @import './components/hero-btn';
 @import './layout/quality-section';
@@ -14,10 +15,6 @@
 @import './components/social-list';
 @import './layout/costomers';
 @import './layout/footer';
-@import './components/footer-logo';
-@import './components/footer-adress';
-@import './components/footer-social-list';
-@import './components/footer-form';
 @import './components/backdrop';
 @import './components/modal-window';
 @import './components/modal-form';

@@ -1,3 +1,9 @@
+.footer .conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .footer {
   padding-top: var(--section-pt-mobile);
   padding-bottom: var(--section-pb-mobile);
@@ -5,22 +11,22 @@
 }
 .info-footer {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 94px;
-  padding-right: 94px;
+  flex-direction: column;
+  align-items: center;
 }
 .logo-footer__link {
   display: block;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+  font-size: 24px;
+  line-height: 1.1;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--blue-color);
   margin-bottom: 20px;
 }
+
 .logo-footer__span {
   color: var(--white-color);
 }
@@ -49,13 +55,7 @@
   margin-bottom: 8px;
 }
 .footer-social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 107px;
-  padding-right: 107px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  margin-top: 60px;
 }
 .footer-social__paragraf {
   font-family: Roboto;
@@ -101,6 +101,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 60px;
 }
 .footer-form__description {
   font-family: var(--main-font-family);
@@ -163,36 +164,23 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: baseline;
   }
 
-  .info-footer {
-    flex-direction: column;
-    margin-right: 165px;
-    padding: 0;
-    padding-left: 61px;
-  }
-
   .footer-social {
-    padding: 0;
-    padding-right: 74px;
-  }
-  .footer-form {
-    align-items: center;
-    padding-left: 161px;
-    margin-top: 60px;
+    margin-top: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer {
-    padding-top: var(--section-pt-desktop);
-    padding-bottom: var(--section-pb-desktop);
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
   .info-footer {
+    align-items: flex-start;
     padding-left: 0;
     margin-right: 70px;
+  }
+  .logo-footer__link {
+    font-size: 26px;
+    line-height: 1.2;
   }
   .footer-social {
     padding: 0;
