@@ -10,7 +10,7 @@
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  min-height: 400px;
+  min-height: 600px;
   padding-top: 118px;
   padding-bottom: 118px;
   background-repeat: no-repeat;
@@ -34,7 +34,9 @@
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Desktop/Hero/img.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Desktop/Hero/Img.jpg);
   }
   .hero__heading {
     font-weight: 900;

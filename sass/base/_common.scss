@@ -28,7 +28,7 @@ img {
 }
 
 body {
-  font-family: Roboto;
+  font-family: var(--main-font-family);
   font-weight: 500;
   color: var(--main-color);
 }
